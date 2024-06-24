@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowd | Funding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .logo{
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #455d7a;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    margin: 50px 50px 0px 50px;
+}
+
+.main{
+    flex: 1;
+}
+
+.headtit{
+    color: #e3e3e3;
+    font-size: 2.5rem;
+}
+
+.spantit{
+    color: #f95959;
+}
+
+.t-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 40px;
+}
+
+.ylin{
+    float: left;
+}
+
+.zr02{
+    float: right;
+}
+
+.title-card{
+    color: #142d4c;
+}
+
+.text-card{
+    color: #9fd3c7;
+}
+
+.card{
+    width: 45%;
+    object-fit: cover;
+}
+
+.hr{
+    width: 90%;
+    margin-top: 19%;
+}
+
+.ratetext{
+    margin: 50px 50px 0px 50px;
+}
+
+.order{
+    margin: 50px 50px 0px 50px;
+    float: left;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 15%;
+}
+
+.ratingtitle{
+    margin-left: 20px;
+    font-size: 1rem;
+    color: #e3e3e3;
+}
+
+.num{
+    margin-right: 20px;
+}
+
+.ratingst{
+    font-size: 0.6rem;
+    color: #f95959;
+}
+
+.footer{
+    text-align: right;
+    color: #f95959;
+}
+
+.rightnews{
+    font-size: 1.5rem;
+}
+
+.righth{
+    margin: 50px 50px 0px 50px;
+}
+
+.rimg{
+    height: 100px;
+    width: 100px;
+}
+.btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      background-color: #142d4c;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    @media (max-width: 600px) {
+      .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="main">
+        <img class="logo" src="/paymentapp/zr02.png">
+        <h1 class="headtit">Once we die, we’ll only be a statistic. <br/> It won’t matter what <span class="spantit">we were called - Kishor EcsT</span></h1>
+
+        <div class="ylin card">
+            <img class="t-image" src="/paymentapp/imagedeeplearning.jpeg">
+            <h2 class="title-card">Meme Explainer</h2>
+            <a href="/paymentapp/index.html" class="btn" onclick="" id="root">Buy</a>
+
+            <p class="text-card">Gathered memes, Preprocessed and
+                Cleaned the image to create a good model trained on it
+                Used VGG-16 Pre- trained </p>
+        </div>
+        <div class="zr02 card">
+            <img class="t-image" src="/paymentapp/imagewebdev.jpg">
+            <h2 class="title-card">Bootstrap Projects</h2>
+            <a href="/paymentapp/src/App.test.js" class="btn" onclick="window.location.href='./src/App.js'">Buy</a>
+            <p class="text-card">Designed a new responsive grid system using Bootstrap, 
+                Created a complete working Payment app using React, Used JavaScript functions 
+                </p>
+        </div>
+        <hr class="hr"/>
+
+        <div class="rating">
+            <h1 class="ratetext">Top Ranked</h1>
+            <div class="list">
+                <ol class="order">
+                  <li>
+                    <h2 class="num"><img class="img" src="/paymentapp/imagedeeplearning.jpeg"> <span class="ratingtitle">Deep Learning Course</span> <span class="ratingst">(4.5/5)</span></h2>
+                  </li> 
+                  
+                  <li>
+                    <h2 class="num"><img class="img" src="/paymentapp/imageclassification.jpeg"> <span class="ratingtitle">Image Classification</span> <span class="ratingst">(4.5/5)</span></h2>
+                  </li> 
+                  
+                  <li>
+                    <h2 class="num"><img class="img" src="/paymentapp/imagewebdev.jpg"> <span class="ratingtitle">Bootstrap</span> <span class="ratingst">(4.4/5)</span></h2>
+                  </li> 
+                  
+                  <li>
+                    <h2 class="num"><img class="img" src="/paymentapp/html.jpeg"> <span class="ratingtitle">HTML Projects</span> <span class="ratingst">(4.3/5)</span></h2>
+                  </li> 
+                  
+                  <li>
+                    <h2 class="num"><img class="img" src="/paymentapp/machinelarning.jpeg"> <span class="ratingtitle">Machine Learning</span> <span class="ratingst">(4.3/5)</span></h2>
+                  </li> 
+                  
+                  <li>
+                    <h2 class="num"><img class="img" src="/paymentapp/tensorflow.png"> <span class="ratingtitle">Tensorflow</span> <span class="ratingst">(4.2/5)</span></h2>
+                  </li> 
+                  
+                  <li>
+                    <h2 class="num"><img class="img" src="/paymentapp/pytorch.png"> <span class="ratingtitle">Pytorch</span> <span class="ratingst">(4.1/5)</span></h2>
+                  </li> 
+                </ol>
+            </div>
+        </div>
+
+        <div class="rightnews">
+          <h2 class="righth">Fight until it's Over fight fight fight</h2>
+          <img class="rimg" src="/paymentapp/zr02.png">
+        </div>
+    </div>
+
+    <footer class="footer">
+      <p>Believe. in. Zr02.</p>
+    </footer>
+</body>
+</html> 
